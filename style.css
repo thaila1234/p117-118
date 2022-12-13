@@ -1,0 +1,36 @@
+canvas{
+    border: 3px solid black;
+    border-radius: 30px;
+    animation-name: canvasex;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top: 85px; 
+}
+
+#div1{
+    text-align: right;
+}
+
+body{
+    background-color: rgb(196, 240, 227);
+}
+
+h3{
+    background-color: rgb(147, 208, 216);
+}
+
+#showsketch{
+    float: right;
+}
+
+#label, #confidence{
+    font-size: 20px;
+}
+
+
+
+
+@keyframes canvasex {
+    from {box-shadow: 1px 1px 35px rgb(0, 0, 168);}
+    to {box-shadow: 1px 1px 35px rgb(160, 0, 160);}
+}
